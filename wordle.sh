@@ -9,10 +9,6 @@ wordle_data=$(curl -s "$API_URL")
 # Extract the target word
 target_word=$(echo "$wordle_data" | jq -r '.solution')
 
-#echo "For added security, please enter today's Wordle answer:"
-
-attempts=0
-
 while true; do
 	read -p "For added security, please enter today's Wordle answer (lowercase): " user_guess
 
@@ -25,5 +21,5 @@ while true; do
 done
 
 # Grant shell access
-echo "Access granted. Welcome to the shell!"
+echo "Access granted!"
 /bin/bash
