@@ -7,8 +7,10 @@ FENs["kbK5/pp6/1P6/8/8/8/8/R7"]="Ra6"
 FENs["4k2r/1R3R2/p3p1pp/4b3/1BnNr3/8/P1P5/5K2"]="Rfe7+"
 FENs["r4br1/3b1kpp/1q1P4/1pp1RP1N/p7/6Q1/PPB3PP/2KR4"]="Qg6+"
 FENs["8/8/8/2P3R1/5B2/2rP1p2/p1P1PP2/RnQ1K2k"]="Qb2"
-FENs["1B2q1B1/2n1kPR1/R1b2n1Q/2p1r3/8/3Q2B1/4p3/4K3"]="Qd6"
 FENs["r2kqbnr/ppp1pppp/8/3pNb2/3n4/8/PPP1PPPP/RNBKQB1R"]="Qb4"
+FENs["1r3b2/1bp2pkp/p1q4N/1p1n1pBn/8/2P3QP/PPB2PP1/4R3"]="Bf6+"
+FENs["3nk1r1/1pq4p/p3PQpB/5p2/2r5/8/P4PPP/3RR1K1"]="Rxd8+"
+FENs["r2k2nr/pp1b1Q1p/2n4b/3N4/3q4/3P4/PPP3PP/4RR1K "]="Re8+"
 
 # Function to print the chess board
 print_board() {
@@ -61,5 +63,5 @@ if [[ $move == ${FENs[$random_key]} ]]; then
     #give user an interactive bash shell
     bash
 else
-    echo "nope"
+    echo "Wrong (You have to know this)"
 fi
