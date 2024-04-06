@@ -11,6 +11,7 @@ FENs["r2kqbnr/ppp1pppp/8/3pNb2/3n4/8/PPP1PPPP/RNBKQB1R"]="Qb4"
 FENs["1r3b2/1bp2pkp/p1q4N/1p1n1pBn/8/2P3QP/PPB2PP1/4R3"]="Bf6+"
 FENs["3nk1r1/1pq4p/p3PQpB/5p2/2r5/8/P4PPP/3RR1K1"]="Rxd8+"
 FENs["r2k2nr/pp1b1Q1p/2n4b/3N4/3q4/3P4/PPP3PP/4RR1K "]="Re8+"
+FENs["R6R/1p2k2r/7q/p2Pp2P/4N1n1/8/K2p4/5Q2"]="Qa6"
 
 # Function to print the chess board
 print_board() {
